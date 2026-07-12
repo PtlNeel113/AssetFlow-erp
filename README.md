@@ -99,6 +99,6 @@ Built with passion, respect for users, and a strong desire to create real impact
 ---
 
 **Thank you for exploring AssetFlow!**  
-Guide By Rushil Patel
+Mentored By Rushil Patel
 
 **Hackathon Submission** — Odoo Hackathon 2026
