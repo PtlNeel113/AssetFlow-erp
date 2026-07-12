@@ -1,125 +1,163 @@
 # AssetFlow - Enterprise Asset & Resource Management System
 
-**Live Demo**: https://asset-flow-erp.vercel.app
+**🌐 Live Demo:** https://subtle-croissant-b97dfc.netlify.app/
 
 ---
 
-## 🎯 Project Vision
+# 🎯 Project Vision
 
-**AssetFlow** is a modern, user-centric **Enterprise Asset & Resource Management System** built on Odoo for the Hackathon. It simplifies how organizations track, allocate, maintain, and audit physical assets and shared resources — replacing chaotic spreadsheets and paper logs with intelligent, role-based digital workflows.
+**AssetFlow** is a modern, user-centric **Enterprise Asset & Resource Management System** built for the **Odoo Hackathon**. It simplifies how organizations track, allocate, maintain, and audit physical assets and shared resources by replacing spreadsheets and paper-based workflows with intelligent, role-based digital processes.
 
-**Not limited to one industry** — perfect for offices, schools, hospitals, factories, and government agencies.
-
----
-
-## ✨ Highlights
-
-- Full asset lifecycle management with smart state transitions
-- Conflict-free allocation & time-slot booking system
-- Structured maintenance approval workflow
-- Professional audit cycles with auto-reports
-- Real-time KPI dashboard + notifications
-- Secure role-based access (no self-promotion to Admin)
+Designed with scalability in mind, AssetFlow is **not limited to one industry**. It is suitable for offices, educational institutions, hospitals, manufacturing units, startups, and government organizations.
 
 ---
 
+# ✨ Highlights
 
-## 🛠 Key Features Implemented
-
-### 1. Organization Setup (Admin Only)
-- Department hierarchy with heads
-- Asset categories with custom fields
-- Employee directory & role promotion
-
-### 2. Asset Management
-- Auto-generated tags (AF-XXXX)
-- Rich search & filters
-- Complete history (allocation + maintenance)
-
-### 3. Allocation & Booking
-- Prevents double allocation
-- Smart transfer workflow
-- Calendar-based resource booking with overlap validation
-
-### 4. Maintenance & Audits
-- Approval-based maintenance requests
-- Scheduled audit cycles with discrepancy reports
-
-### 5. Dashboard & Analytics
-- Live KPIs and overdue alerts
-- Reports on utilization, maintenance trends, and more
+* Full asset lifecycle management with smart state transitions
+* Conflict-free asset allocation and booking system
+* Structured maintenance approval workflow
+* Professional audit cycles with automated reporting
+* Real-time dashboard with KPIs and notifications
+* Secure role-based access control with protected permissions
 
 ---
 
-## 👥 User Roles
+# 🛠 Key Features Implemented
 
-- **Admin** — Full organization setup
-- **Asset Manager** — Asset operations & approvals
-- **Department Head** — Department-level management
-- **Employee** — Self-service access
+## 1. Organization Setup (Admin Only)
 
----
+* Department hierarchy management
+* Asset categories with custom fields
+* Employee directory with controlled role promotion
 
-## 🏗 Tech Stack
+## 2. Asset Management
 
-- **Core**: Odoo 18/19 Community
-- **Language**: Python + XML
-- **Database**: PostgreSQL
-- **Architecture**: Modular, secure, scalable with proper ERP patterns
-- **UI/UX**: Clean, responsive, Odoo-native with custom Kanban, Calendar & Dashboard views
+* Auto-generated Asset IDs (AF-XXXX)
+* Advanced search and filtering
+* Complete allocation and maintenance history
 
----
+## 3. Allocation & Booking
 
-## 🚀 Live Demo
+* Prevents double allocation
+* Smart asset transfer workflow
+* Calendar-based booking with overlap validation
 
-**[View AssetFlow Demo](https://subtle-croissant-b97dfc.netlify.app/)**
+## 4. Maintenance & Audits
 
--Future Scope
+* Approval-based maintenance requests
+* Scheduled audit cycles
+* Discrepancy reporting
 
--QR Code Asset Tracking
+## 5. Dashboard & Analytics
 
--Barcode Integration
-
--AI Predictive Maintenance
-
--Mobile App
-
--IoT Asset Monitoring
-
--RFID Integration
-
--Analytics Dashboard
-
--Multi-Organization Support
+* Live KPI dashboard
+* Overdue alerts
+* Asset utilization reports
+* Maintenance trend analysis
 
 ---
 
-## 📁 Repository Structure
+# 👥 User Roles
+
+* **Admin** – Complete organization setup and management
+* **Asset Manager** – Asset allocation, maintenance, and approvals
+* **Department Head** – Department-level asset management
+* **Employee** – Self-service asset requests and bookings
+
+---
+
+# 🏗 Tech Stack
+
+* **Frontend:** React + Vite
+* **Styling:** Tailwind CSS
+* **Charts:** Recharts
+* **Routing:** React Router
+* **Mock Data:** JSON
+* **Target Platform:** Odoo 18/19 Community (Planned Integration)
+
+---
+
+# 🚀 Live Demo
+
+### 🌐 Frontend Demo
+
+https://subtle-croissant-b97dfc.netlify.app/
+
+### 💻 GitHub Repository
+
+https://github.com/PtlNeel113/AssetFlow-erp
+
+---
+
+# ⚙️ Installation
+
+```bash
+git clone https://github.com/PtlNeel113/AssetFlow-erp.git
+
+cd AssetFlow-erp
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🔮 Future Scope
+
+* QR Code Asset Tracking
+* Barcode Integration
+* AI Predictive Maintenance
+* Mobile Application
+* RFID Integration
+* IoT Asset Monitoring
+* Advanced Analytics Dashboard
+* Multi-Organization Support
+
+---
+
+# 📁 Repository Structure
+
+```text
 assetflow/
-├── models/          # Business logic (assets, bookings, etc.)
-├── views/           # Forms, Kanban, Calendar, Dashboard
-├── security/        # Role-based access rules
-├── data/            # Demo data & sequences
-├── reports/         # Analytics & exports
-└── static/          # Images, icons, custom JS
-
-
----
-
-##  AssetFlow Achivement
-
-- **Real Problem Solver** — Directly addresses manual tracking inefficiencies
-- **Clean Architecture** — Follows Odoo best practices
-- **User-First Design** — Intuitive and joyful to use
-- **Production Ready** — Secure, scalable, and maintainable
-
-Built with passion, respect for users, and a strong desire to create real impact.
-
-AssetFlow is more than an asset management application—it is a modern ERP solution designed to improve operational efficiency, accountability, and organizational visibility. Built with Odoo best practices, modular architecture, and a user-first approach, it demonstrates how enterprise workflows can be made simple, intelligent, and scalable.
+├── src/
+├── public/
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── README.md
+└── .gitignore
+```
 
 ---
 
-**Thank you for exploring AssetFlow!**  
-Mentored By Rushil Patel
+# 🏆 Why AssetFlow?
 
-**Hackathon Submission** — Odoo Hackathon 2026
+* **Real Problem Solver** – Eliminates inefficient manual asset tracking.
+* **Modern ERP Design** – Clean, scalable, and modular architecture.
+* **User-First Experience** – Intuitive interface focused on productivity.
+* **Hackathon Ready** – Built with maintainability, security, and scalability in mind.
+
+AssetFlow demonstrates how enterprise asset management can be transformed into a simple, intelligent, and scalable digital experience. Designed with modern ERP principles and a user-first mindset, it showcases a practical solution for real-world organizational challenges.
+
+---
+
+# 👨‍💻 Team
+
+* Kaival Solanki
+* Patel Neel
+* Niraj Sharma
+* Tirth Valand
+
+---
+
+## 🙏 Acknowledgements
+
+**Mentored By:** Rushil Patel
+
+**Hackathon Submission — Odoo Hackathon 2026**
+
+---
+
+**Thank you for exploring AssetFlow! 🚀**
