@@ -1,6 +1,6 @@
 # AssetFlow - Enterprise Asset & Resource Management System
 
-**Live Demo**: https://subtle-croissant-b97dfc.netlify.app/
+**Live Demo**: https://asset-flow-erp.vercel.app
 
 ---
 
