@@ -1,0 +1,6 @@
+{
+  "name": "AssetFlow",
+  "description": "An Enterprise Asset & Resource Management System (Odoo-style ERP) with full lifecycle tracking, conflict prevention, audits, and maintenance workflows.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette matching Odoo specifications */
+  --color-odoo-purple: #714B67;
+  --color-odoo-purple-light: #F1E9EE;
+  --color-odoo-teal: #00A09D;
+  --color-odoo-teal-light: #E1F5F4;
+  --color-odoo-blue: #3B82C4;
+  --color-odoo-blue-light: #E7F1FA;
+  --color-odoo-amber: #D89614;
+  --color-odoo-amber-light: #FCF1DA;
+  --color-odoo-orange: #D9822B;
+  --color-odoo-orange-light: #FBEEDF;
+  --color-odoo-red: #C5432D;
+  --color-odoo-red-light: #FBEAE6;
+  --color-odoo-gray: #6B6675;
+  --color-odoo-border: #E5E4EA;
+  --color-odoo-bg: #F4F5FA;
+}
+
+/* Base resets */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-odoo-bg);
+  color: var(--color-odoo-gray);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Dark Mode System Rules */
+.dark {
+  --color-odoo-bg: #111012;
+  --color-odoo-border: #2D2B30;
+}
+
+body.dark {
+  background-color: #111012 !important;
+  color: #B2AFB9 !important;
+}
+
+.dark .bg-white {
+  background-color: #1A181C !important;
+}
+
+.dark .bg-\[\#F4F5FA\] {
+  background-color: #111012 !important;
+}
+
+.dark .text-gray-900, 
+.dark .text-gray-800,
+.dark .text-gray-700,
+.dark .text-black,
+.dark .text-slate-900,
+.dark .text-\[\#211F24\] {
+  color: #F4F5FA !important;
+}
+
+.dark .text-\[\#6B6675\],
+.dark .text-gray-600,
+.dark .text-gray-500 {
+  color: #A29EB0 !important;
+}
+
+.dark .text-gray-400 {
+  color: #8C8899 !important;
+}
+
+.dark .border-\[\#E5E4EA\],
+.dark .border-gray-200,
+.dark .border-gray-100 {
+  border-color: #2D2B30 !important;
+}
+
+.dark .divide-\[\#E5E4EA\] {
+  border-color: #2D2B30 !important;
+}
+
+.dark .divide-gray-100 > * + * {
+  border-color: #2D2B30 !important;
+}
+
+.dark .divide-gray-200 > * + * {
+  border-color: #2D2B30 !important;
+}
+
+.dark .divide-\[\#E5E4EA\]\/50 > * + * {
+  border-color: rgba(45, 43, 48, 0.4) !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: #222024 !important;
+}
+
+.dark .hover\:bg-gray-50:hover {
+  background-color: #2D2B30 !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #2A282D !important;
+}
+
+.dark .hover\:bg-gray-100:hover {
+  background-color: #353238 !important;
+}
+
+/* Purple overrides to maintain luxury feel in dark mode */
+.dark .bg-\[\#F1E9EE\] {
+  background-color: #362030 !important;
+}
+
+.dark .text-\[\#714B67\] {
+  color: #E6B2D8 !important;
+}
+
+.dark .hover\:bg-\[\#714B67\]\/10:hover {
+  background-color: rgba(230, 178, 216, 0.15) !important;
+}
+
+.dark .bg-\[\#714B67\] {
+  background-color: #925C84 !important;
+}
+
+.dark .bg-\[\#714B67\]\/90 {
+  background-color: #A46B96 !important;
+}
+
+/* Teal overrides in dark mode */
+.dark .bg-\[\#E1F5F4\] {
+  background-color: #123C3A !important;
+}
+
+.dark .text-\[\#00A09D\] {
+  color: #4BDCD9 !important;
+}
+
+.dark .bg-\[\#00A09D\] {
+  background-color: #00B1AD !important;
+}
+
+/* Red overrides in dark mode */
+.dark .bg-\[\#FBEAE6\] {
+  background-color: #421D18 !important;
+}
+
+.dark .text-\[\#C5432D\] {
+  color: #F87B66 !important;
+}
+
+/* Amber/Orange overrides in dark mode */
+.dark .bg-\[\#FCF1DA\] {
+  background-color: #3D2905 !important;
+}
+
+.dark .text-\[\#D89614\] {
+  color: #F1B442 !important;
+}
+
+.dark .bg-\[\#FBEEDF\] {
+  background-color: #40230B !important;
+}
+
+.dark .text-\[\#D9822B\] {
+  color: #F39D4B !important;
+}
+
+/* Additional specific adjustments */
+.dark input, .dark select, .dark textarea {
+  background-color: #222024 !important;
+  border-color: #2D2B30 !important;
+  color: #FFFFFF !important;
+}
+
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.6) !important;
+}
